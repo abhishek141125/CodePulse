@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from 'a componets/logo.jpg';
+import logo from '../assets/aa..jpg';
 
 
 export default function Header() {
     return (
         <header className="header">
             <div className="header-content">
-                <img src="your-image.png" alt="logo" className="logo" />
+                <img src={logo} alt="CodePulse logo" className="logo" />
                 <h1>CodePulse</h1>
                 <nav>
                     

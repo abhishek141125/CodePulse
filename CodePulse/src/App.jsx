@@ -1,9 +1,9 @@
 import React from 'react'
 import Header from './componants/layout/Header'
 import Home from './home'
-import { ToastContainer, toast } from 'react-toastify'
+import { ToastContainer, toast } from 'react-toastify
 import About from './About'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from'react-router-dom'
 import './App.css'
 import Blog from './componants/layout/blog'
 import Contacts from './componants/layout/contact'

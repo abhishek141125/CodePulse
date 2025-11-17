@@ -5,6 +5,11 @@ import { ToastContainer, toast } from 'react-toastify'
 import About from './About'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
+import Blog from './componants/layout/blog'
+import Contacts from './componants/layout/contact'
+import Service from './componants/layout/service'
+
+
 
 export default function App() {
   const to = () => {
@@ -29,6 +34,9 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
+           <Route path="/blog" element={<Blog/>}/>
+           <Route path="/contacts" element={<Contacts/>}/>
+           <Route path="/service" element={<Service/>}/>
         </Routes>
       </BrowserRouter>
     </div>

@@ -13,7 +13,7 @@ import Service from './componants/layout/service'
 
 export default function App() {
   const to = () => {
-    toast.warning('warning'
+    toast.warning('warning')
     toast.error('error')
     toast.success('success')
     toast.info('info')
